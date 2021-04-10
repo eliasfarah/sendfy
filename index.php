@@ -26,7 +26,7 @@ try {
         }
     }
     
-    var_dump($apiResult);
+    // var_dump($apiResult);
 } catch (\Exception $e) {
     var_dump($e->getMessage());
 }
